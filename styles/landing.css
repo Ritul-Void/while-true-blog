@@ -1,9 +1,9 @@
-.root{
-   width: 90vw;
-   margin: 40px auto;
+.root {
+    width: 90vw;
+    margin: 40px auto;
 }
 
-.header{
+.header {
     height: 40vh;
     display: flex;
     justify-content: space-around;
@@ -13,29 +13,51 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.info{
-width: 60%;
- font-family: "Kode Mono", monospace;
+.info {
+    width: 60%;
+    font-family: "Kode Mono", monospace;
 }
-.blogTitle{
+
+.blogTitle {
     font-size: 4rem;
     margin-bottom: 1.2rem;
 }
 
-.menu{
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.contactItem {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    padding: 0.6rem;
+    margin-right: 2px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+
+}
+
+.contactItem i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.menu {
     width: 30%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.navLinks{
-    
+
+.navLinks {
+
     list-style: none;
     font-size: 1.2rem;
     line-height: 1.8rem;
     text-align: end;
-}
-.contactItem{
-    color: white;
-    background-color: rgb(58, 58, 58);
 }
