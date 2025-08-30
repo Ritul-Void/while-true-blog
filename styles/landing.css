@@ -1,0 +1,41 @@
+.root{
+   width: 90vw;
+   margin: 40px auto;
+}
+
+.header{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info{
+width: 60%;
+ font-family: "Kode Mono", monospace;
+}
+.blogTitle{
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navLinks{
+    
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: end;
+}
+.contactItem{
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
