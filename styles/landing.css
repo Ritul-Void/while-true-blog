@@ -27,19 +27,27 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     gap: 1rem;
 }
 
 .contactItem {
-    color: white;
-    background-color: rgb(37, 37, 37);
+color: white;
+    background-color: rgb(24 24 24);
     text-decoration: none;
     padding: 0.6rem;
     margin-right: 2px;
+    display: flex
+;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.226);
-
+    transition: scale 0.25s ease-in-out;
+}
+.contactItem:hover {
+    background-color: rgb(40 40 40);
+    border: 1px solid white;
+    cursor: pointer;
+    scale: 1.2;
 }
 
 .contactItem i {
@@ -49,6 +57,7 @@
 
 .menu {
     width: 30%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -58,6 +67,6 @@
 
     list-style: none;
     font-size: 1.2rem;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
     text-align: end;
 }
