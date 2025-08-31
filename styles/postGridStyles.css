@@ -1,30 +1,61 @@
  .allposts {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   margin-top: 6.5rem;
+   margin-top: 3.5rem;
  }
 
  .post-card {
-   background: #000000;
+   background: #181818;
    color: white;
-   border: 1px solid white;
-   height: 17rem;
+   border: 1px solid rgb(255 255 255 / 18%);
+   height: 19rem;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
    padding: 16px;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
    gap: 12px;
-transition: .2s ease-in-out;
+   transition: .15s ease-in-out;
    font-family: Arial, sans-serif;
  }
- .post-card:hover{
 
-  transform: scale(1.1);
+ .post-card:hover {
+ cursor: pointer;
+   transform: scale(1.05);
  }
 
+ .post-tags {
+   display: flex;
+   gap: 6px;
+   font-family: "Montserrat", sans-serif;
+ }
+
+ .tag {
+  background-color: #1f1f1f;
+   color: #ffffff;
+   padding: 2px 6px; 
+   border-radius: 12px;
+   font-size: 12px;
+ }
+
+ [data-tag="css"] {
+   color: red;
+ }
+
+ [data-tag="webdev"] {
+   color: rgb(212, 198, 72);
+ }
+
+ [data-tag="tutorial"] {
+   color: rgb(141, 80, 255);
+ }
+
+
  .post-title {
-   font-size: 20px;
-   font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: #c7c7c7;
+    font-family: "IBM Plex Mono", monospace;
 
  }
 
@@ -47,17 +78,4 @@ transition: .2s ease-in-out;
    display: flex;
    justify-content: space-between;
    align-items: center;
- }
-
- .post-tags {
-   display: flex;
-   gap: 6px;
- }
-
- .tag {
-   background-color: #eef2f7;
-   color: #000000;
-   padding: 3px 8px;
-   border-radius: 12px;
-   font-size: 12px;
  }
