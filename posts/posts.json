@@ -1,34 +1,56 @@
 [
-
-        {
-            "id": 1,
-            "title": "His mother had always taught him",
-            "Desc": "this is a small post desc",
-            "body": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
-            "created_at": "2025-01-15T08:00:00Z",
-            "updated_at": "2025-01-16T12:00:00Z",
-            "time to read":"10mins",
-            "tags": [
-                "history",
-                "american",
-                "crime"
-            ],
-            "published": true
-        },
-
-        {
-            "id": 2,
-            "title": "He was an expert but not in a discipline",
-            "Desc": "this is a small post desc",
-            "body": "He was an expert but not in a discipline that anyone could fully appreciate. He knew how to hold the cone just right so that the soft server ice-cream fell into it at the precise angle to form a perfect cone each and every time. It had taken years to perfect and he could now do it without even putting any thought behind it.",
-            "created_at": "2025-01-15T08:00:00Z",
-            "updated_at": "2025-01-16T12:00:00Z",
-            "time to read":"10mins",
-            "tags": [
-                "history",
-                "american",
-                "crime"
-            ],
-            "published": true
-        }
+    {
+        "id": 1,
+        "title": "His mother had always taught him",
+        "body": "# His mother had always taught him\n\nHis mother had always taught him not to ever think of himself as better than others. \n\nHe'd tried to live by this motto:\n- Never look down on people.\n- Stay humble.\n- Stay kind.\n\nBut the stupidity of the group of people he was talking to made him **change his mind**.\n\n> Sometimes, the real test of humility is knowing when to walk away.",
+        "created_at": "2025-01-15",
+        "time_to_read": "10mins",
+        "tags": ["css","tutorial"],
+        "published": true
+    },
+    {
+        "id": 2,
+        "title": "The Silent Forest",
+        "body": "# The Silent Forest\n\nWalking through the forest, he noticed how **silent** everything was. No birds. No insects. Not even the wind.\n\n```javascript\n// A simple test code block\nfunction hello() {\n  console.log(\"Hello, world!\");\n}\n```\n\nThat’s when he realized the silence wasn’t natural—it was watching him.\n\n### Key Takeaways\n- Silence can be more terrifying than noise.\n- Trust your instincts.\n- Stories breathe life into plain text.",
+        "created_at": "2025-02-10",
+        "time_to_read": "7mins",
+        "tags": ["css","tutorial"],
+        "published": true
+    },
+    {
+        "id": 3,
+        "title": "a short eerie story for testing",
+        "body": "# The Silent Forest\n\nWalking through the forest, he noticed how **silent** everything was. No birds. No insects. Not even the wind.\n\n```javascript\n// A simple test code block\nfunction hello() {\n  console.log(\"Hello, world!\");\n}\n```\n\nThat’s when he realized the silence wasn’t natural—it was watching him.\n\n### Key Takeaways\n- Silence can be more terrifying than noise.\n- Trust your instincts.\n- Stories breathe life into plain text.",
+        "created_at": "2025-02-10",
+        "time_to_read": "7mins",
+        "tags": ["css","webdev","tutorial"],
+        "published": true
+    },
+    {
+        "id": 4,
+        "title": "The Silent Forest lorem esting markdow ",
+        "body": "# The Silent Forest\n\nWalking through the forest, he noticed how **silent** everything was. No birds. No insects. Not even the wind.\n\n```javascript\n// A simple test code block\nfunction hello() {\n  console.log(\"Hello, world!\");\n}\n```\n\nThat’s when he realized the silence wasn’t natural—it was watching him.\n\n### Key Takeaways\n- Silence can be more terrifying than noise.\n- Trust your instincts.\n- Stories breathe life into plain text.",
+        "created_at": "2025-02-10",
+        "time_to_read": "7mins",
+        "tags": ["css","webdev","tutorial"],
+        "published": true
+    },
+    {
+        "id": 5,
+        "title": "His mother had always taught him",
+        "body": "# His mother had always taught him\n\nHis mother had always taught him not to ever think of himself as better than others. \n\nHe'd tried to live by this motto:\n- Never look down on people.\n- Stay humble.\n- Stay kind.\n\nBut the stupidity of the group of people he was talking to made him **change his mind**.\n\n> Sometimes, the real test of humility is knowing when to walk away.",
+        "created_at": "2025-01-15",
+        "time_to_read": "10mins",
+        "tags": ["css","webdev"],
+        "published": true
+    },
+    {
+        "id": 6,
+        "title": "His mother had always taught him",
+        "body": "# His mother had always taught him\n\nHis mother had always taught him not to ever think of himself as better than others. \n\nHe'd tried to live by this motto:\n- Never look down on people.\n- Stay humble.\n- Stay kind.\n\nBut the stupidity of the group of people he was talking to made him **change his mind**.\n\n> Sometimes, the real test of humility is knowing when to walk away.",
+        "created_at": "2025-01-15",
+        "time_to_read": "10mins",
+        "tags":["css","webdev"],
+        "published": true
+    }
 ]

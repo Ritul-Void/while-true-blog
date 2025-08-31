@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/Universal.css">
     <link rel="stylesheet" href="./styles/postGridStyles.css">
+    <link rel="stylesheet" href="./styles/mobileMenu.css">
 
 
 </head>
@@ -73,6 +74,12 @@
 
             </div>
             <nav class="menu">
+                <div class="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </div>
                 <ul class="navLinks">
                     <li class="active" class="navItem">#All posts</li>
                     <li class="navItem">#HTML</li>
@@ -86,30 +93,15 @@
 
             </nav>
         </header>
-        <div class="allposts">
+        <div class="allposts" id="postGrid">
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
-                <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
-                <div class="post-meta">
-                    <div class="post-date">2025-08-31</div>
-                    <div class="post-read-time">8 mins read</div>
-                </div>
-            </div>
-            
-            <div class="post-card">
-                <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
-                    <span class="tag" data-tag="webdev">Web Development</span>
-                    <span class="tag" data-tag="tutorial">Tutorial</span>
-                </div>
-                
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -120,11 +112,11 @@
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -135,11 +127,11 @@
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -150,11 +142,11 @@
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -165,11 +157,11 @@
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -180,11 +172,26 @@
 
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
+                <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
+
+                <div class="post-meta">
+                    <div class="post-date">2025-08-31</div>
+                    <div class="post-read-time">8 mins read</div>
+                </div>
+            </div>
+
+            <div class="post-card">
+                <div class="post-tags">
+                    <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="webdev">Web Development</span>
+                    <span class="tag" data-tag="tutorial">Tutorial</span>
+                </div>
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -194,11 +201,11 @@
             </div>
             <div class="post-card">
                 <div class="post-tags">
-                     <span class="tag" data-tag="css">CSS</span>
+                    <span class="tag" data-tag="css">CSS</span>
                     <span class="tag" data-tag="webdev">Web Development</span>
                     <span class="tag" data-tag="tutorial">Tutorial</span>
                 </div>
-                
+
                 <div class="post-title">Mastering CSS Grid: A Complete Guide</div>
 
                 <div class="post-meta">
@@ -216,6 +223,7 @@
     </div>
     <script src="./scripts/postFetch.js"></script>
     <script src="./scripts/posts.js"></script>
+    <script src="./scripts/mobileMenu.js"></script>
 </body>
 
 </html>
