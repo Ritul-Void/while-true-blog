@@ -1,22 +1,26 @@
-[
+{
+  "posts": [
     {
-        "id": 1,
-        "title": "Getting Started with My Blog",
-        "author": "Your Name",
-        "content": "Welcome to my blog! This is the first post.",
-        "tags": ["introduction", "welcome", "blog"],
-        "created_at": "2024-06-10T10:00:00Z",
-        "updated_at": "2024-06-10T10:00:00Z",
-        "published": true
+      "id": 1,
+      "title": "His mother had always taught him",
+      "Desc" : "this is a small post desc",
+      "body": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
+      "tags": [
+        "history",
+        "american",
+        "crime"
+      ]
     },
     {
-        "id": 2,
-        "title": "Understanding JSON Structure",
-        "author": "Your Name",
-        "content": "In this post, we explore the basics of JSON for data storage.",
-        "tags": ["json", "tutorial", "data"],
-        "created_at": "2024-06-11T09:30:00Z",
-        "updated_at": "2024-06-11T09:30:00Z",
-        "published": true
-    }
-]
+      "id": 2,
+      "title": "He was an expert but not in a discipline",
+       "Desc" : "this is a small post desc",
+      "body": "He was an expert but not in a discipline that anyone could fully appreciate. He knew how to hold the cone just right so that the soft server ice-cream fell into it at the precise angle to form a perfect cone each and every time. It had taken years to perfect and he could now do it without even putting any thought behind it.",
+      "tags": [
+        "french",
+        "fiction",
+        "english"
+      ]
+     
+    } ]
+}
