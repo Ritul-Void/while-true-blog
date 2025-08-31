@@ -7,7 +7,8 @@ async function getPosts() {
 async function displayPosts() {
     const posts = await getPosts()
     console.log(posts)
-
+    const totalPosts = posts.length
+    console.log(`total posts = ${totalPosts}`)
     console.log(posts[0].title)
     
 }
